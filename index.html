@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumTemp - Advanced Temperature Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QuantumTemp Converter</h1>
+        
+        <div class="converter-box">
+            <div class="input-group">
+                <label for="temperature">Enter Temperature</label>
+                <input type="number" id="temperature" placeholder="e.g. 32" step="any">
+                <div class="error-message" id="input-error"></div>
+            </div>
+            
+            <div class="input-group">
+                <label>Convert From</label>
+                <div class="select-group">
+                    <div class="radio-option">
+                        <input type="radio" id="celsius-from" name="from-unit" value="celsius" checked>
+                        <label for="celsius-from">
+                            <i class="fas fa-temperature-low"></i>
+                            Celsius (°C)
+                        </label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="fahrenheit-from" name="from-unit" value="fahrenheit">
+                        <label for="fahrenheit-from">
+                            <i class="fas fa-temperature-high"></i>
+                            Fahrenheit (°F)
+                        </label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="kelvin-from" name="from-unit" value="kelvin">
+                        <label for="kelvin-from">
+                            <i class="fas fa-atom"></i>
+                            Kelvin (K)
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label>Convert To</label>
+                <div class="select-group">
+                    <div class="radio-option">
+                        <input type="radio" id="celsius-to" name="to-unit" value="celsius">
+                        <label for="celsius-to">
+                            <i class="fas fa-temperature-low"></i>
+                            Celsius (°C)
+                        </label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="fahrenheit-to" name="to-unit" value="fahrenheit" checked>
+                        <label for="fahrenheit-to">
+                            <i class="fas fa-temperature-high"></i>
+                            Fahrenheit (°F)
+                        </label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="kelvin-to" name="to-unit" value="kelvin">
+                        <label for="kelvin-to">
+                            <i class="fas fa-atom"></i>
+                            Kelvin (K)
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn-convert" id="convert-btn">Convert Temperature</button>
+            
+            <div class="result-container hidden" id="result-container">
+                <div class="result-value" id="result-value">0</div>
+                <div class="result-unit" id="result-unit">°F</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
