@@ -10,6 +10,8 @@
 
 ---
 
+Live Deploy
+(https://quantuntemp.netlify.app/)
 
 ## 🔥 Features
 
@@ -72,7 +74,7 @@ No installation required! Just:
 ## 🧑‍💻 Internship Info
 > **Developed by:** Chapala Sriram  
 > **For:** AICTE OASIS INFOBYTE Internship  
-> **Submission Date:** 15/06/2025
+> **Submission Date:** 26/06/2025
 
 ---
 
