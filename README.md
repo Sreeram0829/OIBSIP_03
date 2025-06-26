@@ -1,17 +1,16 @@
 # 🌡️ QuantumTemp - Temperature Converter
+**QuantumTemp** is a modern, responsive temperature converter that allows users to convert between **Celsius, Fahrenheit, and Kelvin**. Built using **HTML, CSS, and vanilla JavaScript**, it delivers a sleek UI with smooth animations, intuitive input, and full keyboard support.
+
+
+Screenshots
 ![Interface View _1](https://github.com/user-attachments/assets/60402c5e-47ab-4cf3-bea1-96d4d7230583)
 ![Interface View_2](https://github.com/user-attachments/assets/8481eecf-31b9-44a1-b616-d0e76ae394f4)
 ![Temperature Converter View](https://github.com/user-attachments/assets/11130d13-a6ed-40f1-afcd-a734a40dd00f)
 
----
-
-## 🧠 Overview
-**QuantumTemp** is a modern, responsive temperature converter that allows users to convert between **Celsius, Fahrenheit, and Kelvin**. Built using **HTML, CSS, and vanilla JavaScript**, it delivers a sleek UI with smooth animations, intuitive input, and full keyboard support.
-
----
 
 Live Deploy
-(https://quantuntemp.netlify.app/)
+[https://quantuntemp.netlify.app/]
+
 
 ## 🔥 Features
 
@@ -68,16 +67,13 @@ No installation required! Just:
 - **K to C**: `K - 273.15`  
 - **F to K**: `(F - 32) × 5/9 + 273.15`  
 - **K to F**: `(K - 273.15) × 9/5 + 32`
-
----
-
-## 🧑‍💻 Internship Info
-> **Developed by:** Chapala Sriram  
-> **For:** AICTE OASIS INFOBYTE Internship  
-> **Submission Date:** 26/06/2025
-
----
+- 
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
+🧾 Internship Submission Details
+👨‍💻 Developed by: Chapala Sriram
+🏢 Internship: AICTE OASIS INFOBYTE
+📅 Submission Date: 26/06/2025
